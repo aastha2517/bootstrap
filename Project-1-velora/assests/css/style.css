@@ -1,0 +1,32 @@
+
+:root{
+        --bs-primary-rgb: 98, 71, 48;
+        --bs-tertiary-bg-rgb: 252, 247, 239;
+        --bs-border-color: #6247304f;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.shipping{
+    background-color:#F1E2D3;
+}
+.nav-icon input{
+    font-size: 14px;
+}
+.search{
+    border: 1px solid #62473042;
+}
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: rgba(#62473042,var(--bs-border-opacity)) !important;
+}
+.link-primary:focus,.link-primary:hover {
+    color:RGBA(198, 147, 62, var(--bs-link-opacity, 1)) !important;
+    
+}
+
