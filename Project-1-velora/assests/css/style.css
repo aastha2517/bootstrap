@@ -4,6 +4,7 @@
         --bs-tertiary-bg-rgb: 252, 247, 239;
         --bs-border-color: #6247304f;
         --desc-color:#62473042;
+        --bs-secondary-rgb: 58, 47, 42 !important;
         
         
 
@@ -15,7 +16,7 @@
     box-sizing: border-box;
 }
 .shipping{
-    background-color:#F1E2D3;
+    background-color:rgb(241, 226, 211);
 }
 .nav-icon input{
     font-size: 14px;
@@ -36,7 +37,8 @@
 }
 .hero-content{
     top: 25%;
-    left: 13%;
+    left: 10%;
+
 }
 .hero-content p{
     color:#9D5C2C;
@@ -67,4 +69,35 @@
 }
 .sub-title p{
     font-size: 12px;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+    background-color:#e6e0db54;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.btn-warning {
+    --bs-btn-color: ##3A2F2A;
+    --bs-btn-bg: #F1E2D3;
+    --bs-btn-border-color: #3A2F2A;
+    --bs-btn-hover-color: #F1E2D3;
+    --bs-btn-hover-bg: #3A2F2A;
+    --bs-btn-hover-border-color:none;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #3A2F2A;
+    --bs-btn-active-bg: #F1E2D3;
+    --bs-btn-active-border-color: #3A2F2A;
+}
+.hero-position{
+    top: 13%;
+    right: 8%;
+}
+.slide-3-icon p{
+    font-size: 13px;
 }
