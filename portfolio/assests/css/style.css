@@ -26,7 +26,7 @@
 /* .card{
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 } */
-.icon div,.experience .card,.education .card{
+.icon .icon-frame,.experience .card,.education .card{
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
 }
 .card::before{
@@ -41,3 +41,32 @@
     border-radius: 30px;
     opacity: 0.25;
 }
+.about-me{
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
+
+.icon .icon-frame{
+    aspect-ratio: 1/1;
+}
+/* .icon-frame{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    border:1px solid #374151;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#94A3B8;
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.icon-frame:hover{
+    background:#3B82F6;
+    color:#fff;
+} */
