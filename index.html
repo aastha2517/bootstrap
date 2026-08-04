@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+
+<body>
+    <header class="text-bg-dark">
+        <nav class="navbar navbar-expand-lg text-secondary-emphasis pt-3">
+            <div class="container">
+                <div class="col-2 col-md-1">
+                    <a class="navbar-brand " href="#logo">
+                        <img src="./assests/images/logo.png" alt="Logo" class="d-inline-block align-text-top w-100">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item px-4 ">
+                            <a class="nav-link  text-secondary-emphasis fw-semibold " aria-current="page"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-secondary-emphasis" href="#about">About</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-secondary-emphasis" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-secondary-emphasis" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn  btn-secondary border rounded-4 px-4" type="submit">Let's Talk</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class=" hero-sec  position-relative">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4   position-absolute top-50 translate-middle-y">
+                        <div class="hero-content ">
+                            <p class="fs-5 fw-semibold text-secondary mb-0">Hello I'm</p>
+                            <h1 class="text-secondary pb-1">Aastha Patel,</h1>
+                            <h2 class="text-secondary">Full Stack Development.</h2>
+                            <p class="text-secondary py-2">I design and develop modern, responsive websites with clean
+                                code and intuitive user experiences. Passionate about transforming ideas into beautiful
+                                digital products.</p>
+                            <div class="hero-btn d-flex gap-3">
+                                <button class="btn btn-outline-primary">View My Projects</button>
+                                <button class="btn btn-primary">Download CV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <img src="./assests/images/profile.png" alt="Hero Image" class="w-50 position-absolute top-50 end-0 translate-middle-y hero-profile">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="text-bg-dark">
+            <div class="container">
+                <div class="row py-5 justify-content-center">
+                    <div class="d-flex  justify-content-center mb-5 col-lg-5 col-xl-4">
+                        <div class="card text-bg-dark rounded-5  about-me position-sticky top-30 " style="width:100%;">
+                            <div class="about-img m-3 rounded-4">
+                                <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/me.png"
+                                    class="card-img-top " alt="profile">
+                            </div>
+                            <div class="card-body text-center ">
+                                <h5 class="card-title text-secondary">Aastha Patel</h5>
+                                <p class="card-title text-secondary-emphasis">@aastha2501</p>
+                                <div class="col-12 my-4">
+                                    <div class="icon d-flex justify-content-between ">
+                                        <div class="col-2">
+                                            <div
+                                                class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
+                                                <i class="ri-basketball-line text-secondary-emphasis fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                <i class="ri-twitter-line text-secondary-emphasis fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                <i class="ri-instagram-line text-secondary-emphasis fs-4"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
+                                                <i class="ri-facebook-box-line text-secondary-emphasis fs-4"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn btn-primary px-5 py-1">Contact Me</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-7  ms-xl-4">
+                        <div class="about-content">
+                            <div class="about">
+                                <h4 class="text-light pb-4">ABOUT ME</h4>
+                                <p class="text-secondary">Sit amet luctussd fav venenatis, lectus magna
+                                    fringilla inis urna, porttitor rhoncus dolor purus non enim praesent in
+                                    elementum sahas facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
+                                    etisam dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio
+                                    facilisis mauris sit. Scelerisque fermentum duisi faucibus in ornare quam sisd
+                                    sit amet luctussd fav venenatis, lectus magna fringilla zac urna, porttitor
+                                    rhoncus dolor purus non enim praesent cuz elementum sahas facilisis leot.</p>
+                            </div>
+                            <div class="experience text-secondary-emphasis">
+                                <h4 class="text-light pb-4">EXPERIENCE</h4>
+                                <div class="card  border rounded-5 border-secondary-subtle mb-5" style="width: 100%;">
+                                    <div class="card-body text-secondary">
+                                        <p
+                                            class="fs-6 fw-bold btn btn-outline-secondary rounded-4 px-3 py-1 text-secondary">
+                                            <span><i
+                                                    class="ri-calendar-2-line fs-5 pe-2 text-secondary fw-normal"></i></span>
+                                            2024 - Present
+                                        </p>
+                                        <h5 class="card-title text-light fs-2">Web Development & Self-Driven
+                                            Projects</h5>
+                                        <p class="card-text text-primary">Student Front-End Developer</p>
+                                        <div class="d-flex gap-2 align-items-center pb-2">
+                                            <span><i class="ri-circle-fill"></i></span>
+                                            <p class="text-light fs-5 fw-semibold m-0">Keypoins :</p>
+                                        </div>
+
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line ps-4 "></i></span>
+                                            <p>Developed responsive, mobile-first web pages using HTML5, CSS3,
+                                                JavaScript, and Bootstrap 5.</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line ps-4 "></i></span>
+                                            <p>Converted visual concepts into clean, pixel-perfect code with
+                                                custom CSS styling and neon glow effects.</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line ps-4 "></i></span>
+                                            <p>Implemented interactive UI components like carousels, accordion
+                                                menus, and smooth collapse toggles.</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line ps-4 "></i></span>
+                                            <p>Designed minimalist layouts focusing on clean hierarchy and
+                                                modern dark-mode aesthetics.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education text-secondary-emphasis">
+                                <h4 class="text-light pb-4">EDUCATION</h4>
+                                <div class="card  border rounded-5 border-secondary-subtle mb-5" style="width: 100%;">
+                                    <div class="card-body text-secondary">
+                                        <p
+                                            class="fs-6 fw-bold btn btn-outline-secondary rounded-4 px-3 py-1 text-secondary">
+                                            <span><i
+                                                    class="ri-calendar-2-line fs-5 pe-2 text-secondary fw-normal"></i></span>
+                                            2024 - 2027 (Expected)
+                                        </p>
+                                        <h5 class="card-title text-light fs-3">Bachelor of Science in Information
+                                            Technology (BSc.IT)</h5>
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <span><i class="ri-school-fill fs-5 text-primary"></i></span>
+                                            <p class="card-text text-primary">Vidhyadeep University</p>
+                                        </div>
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <span><i class="ri-map-pin-2-fill fs-5"></i></span>
+                                            <p class="card-text">Gujarat , India</p>
+                                        </div>
+
+                                        <hr>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line "></i></span>
+                                            <p>Currently Pursuing (2nd Year)</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line "></i></span>
+                                            <p>Building responsive and user-friendly web applications.</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line "></i></span>
+                                            <p>Developing a strong foundation in Programming, Database Management, Data
+                                                Structures, and Software Engineering.</p>
+                                        </div>
+                                        <div class="d-flex gap-2 ">
+                                            <span><i class="ri-checkbox-circle-line "></i></span>
+                                            <p>Continuously improving my skills through personal projects, hands-on
+                                                practice, and self-learning.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills position-relative bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 ">
+                        <div
+                            class="skill  rounded-2 position-absolute top-50 start-0 translate-middle-y rounded-4 p-5 mx-5 ">
+                            <div class="col-6">
+                                <div class="skills-title  text-center ">
+                                    <p class="m-0 text-primary">My Skills</p>
+                                    <h4 class="m-0 text-light fs-1">Technologies I work with</h4>
+                                    <p class="text-secondary py-2">I have a strong foundation in web development and
+                                        programming, with expertise in HTML, CSS, C, C++, and Bootstrap. I am passionate
+                                        about creating responsive and user-friendly web applications that provide
+                                        seamless experiences for users.</p>
+                                </div>
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <!-- <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary"></p>
+                                                </div> -->
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <!-- <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary"></p>
+                                                </div> -->
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <!-- <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary"></p>
+                                                </div> -->
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects py-5 bg-dark">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="text-primary fw-semibold mb-2">My Work</p>
+                    <h2 class="text-white fw-bold display-5">Recents Projects</h2>
+                    <p class="text-secondary">
+                        Here are some of my favorite web development projects.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="projectCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden text-bg-dark ">
+                                        <img src="./assests/images/project-1.png" class="card-img-top project-img"
+                                            alt="Velora">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Velora Marketplace
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A luxury handmade marketplace website
+                                                designed using HTML, CSS and Bootstrap.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-2.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Travel Website
+                                            </h3>
+                                            <p class="text-secondary">
+                                                Responsive travel landing page with
+                                                modern UI design.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-4.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Hospital Registration System
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A responsive hospital registration website designed to simplify patient
+                                                registration with a clean and user-friendly interface.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-6.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Sandbox Landing Page
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A modern business landing page built with Bootstrap, featuring a clean
+                                                layout, responsive design, and engaging hero section.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-5.png" class="card-img-top project-img"
+                                            alt="Netflix">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Netflix Clone
+                                            </h3>
+                                            <p class="text-secondary">
+                                                Netflix landing page clone with modern
+                                                responsive layout.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-indicators position-relative mt-4">
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0"
+                                    class="active"></button>
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-bg-dark">
+            <div class="container">
+                <div class="contact-wrap p-4 p-lg-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-7">
+                            <p class="text-primary fw-semibold mb-2">CONTACT</p>
+                            <h2 class="fw-bold text-light">Let's Build Something Amazing</h2>
+                            <p class="text-secondary">Have a project in mind? Send me a message and I'll get back to
+                                you soon.</p>
+                            <div class="row g-3">
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Email"></div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Subject"></div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Phone"></div>
+                                <div class="col-12"><textarea class="form-control bg-dark text-white" rows="5"
+                                        placeholder="Write your message..."></textarea></div>
+                                <div class="col-12"><button class="btn btn-primary px-4 py-2">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="text-center mb-4"><i class="bi bi-chat-square-text display-1 text-primary"></i>
+                            </div>
+                            <div class="info-item d-flex"><i class="bi bi-telephone fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Phone</h6>
+                                    <p class="text-secondary m-0">+91 98765 43210</p>
+                                </div>
+                            </div>
+                            <div class="info-item d-flex"><i class="bi bi-envelope fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Email</h6>
+                                    <p class="text-secondary m-0">hello@example.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex pt-3"><i class="bi bi-geo-alt fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Location</h6>
+                                    <p class="text-secondary m-0">Surat, Gujarat, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 text-bg-dark border-top border-secondary">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <h3>Aastha</h3>
+                        <p class="text-secondary">Creating modern, responsive websites with clean UI and great user
+                            experience.</p>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <h6>Quick Links</h6>
+                        <a href="#">Home</a><br><a href="#">About</a><br><a href="#">Projects</a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h6>Services</h6><a href="#">Web Design</a><br><a href="#">Frontend</a><br><a
+                            href="#">Bootstrap</a>
+                    </div>
+                    <div class="col-lg-3 text-secondary">
+                        <h6>Follow</h6>
+                        <i class="ri-github-fill me-3 fs-4"></i><i class="ri-linkedin-fill me-3 fs-4"></i><i
+                            class="ri-instagram-line me-3 fs-4"></i>
+                    </div>
+                </div>
+                <hr class="border-secondary">
+                <p class="text-center text-secondary mb-0">© 2026 Aastha Patel. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
