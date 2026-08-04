@@ -3,6 +3,8 @@
     --bs-secondary-rgb: 203, 213, 225;
     --bs-secondary-text-emphasis: #9CA3AF;
     --bs-emphasis-color-rgb: 203, 213, 225;
+    --bs-secondary-border-subtle: #9ca3af6e;
+
 }
 /* .navbar-brand img{
     width: 15%;
@@ -24,7 +26,7 @@
 /* .card{
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 } */
-.icon div{
+.icon div,.experience .card,.education .card{
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
 }
 .card::before{
@@ -38,7 +40,4 @@
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
     border-radius: 30px;
     opacity: 0.25;
-}
-.exp-card{
-    width: 125%;
 }
