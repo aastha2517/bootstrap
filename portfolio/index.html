@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-primary ">
-            <div class="container ">
+    <header class="text-bg-dark ">
+        <nav class="navbar navbar-expand-lg text-secondary-emphasis pt-3 pb-3">
+            <div class="container">
                 <div class="col-2 col-md-1">
                     <a class="navbar-brand " href="#logo">
                         <img src="./assests/images/logo.png" alt="Logo" class="d-inline-block align-text-top w-100">
@@ -25,39 +25,27 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent ">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto">
                         <li class="nav-item px-4 ">
-                            <a class="nav-link active text-secondary-emphasis fw-semibold " aria-current="page"
+                            <a class="nav-link  text-secondary-emphasis fw-semibold " aria-current="page"
                                 href="#home">Home</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link text-secondary" href="#about">About</a>
+                            <a class="nav-link text-secondary-emphasis" href="#about">About</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link text-secondary" href="#projects">Projects</a>
+                            <a class="nav-link text-secondary-emphasis" href="#skills">Skills</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-secondary" href="#work" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Work
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li> -->
-
                         <li class="nav-item px-4">
-                            <a class="nav-link text-secondary" href="#contact">Contact</a>
+                            <a class="nav-link text-secondary-emphasis" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-secondary-emphasis" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn  btn-primary" type="submit">Let's Talk</button>
+                        <button class="btn  btn-secondary border rounded-4 px-4" type="submit">Let's Talk</button>
                     </form>
                 </div>
             </div>
@@ -65,13 +53,13 @@
     </header>
 
 
-    <main>
-        <section class="bg-primary  hero-sec  position-relative">
+    <main class="text-bg-dark">
+        <section class=" hero-sec  position-relative pad-x-y-10 mb-4" id="home">
             <div class="container">
                 <div class="row">
                     <div
-                        class="col-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4   position-absolute top-50 translate-middle-y">
-                        <div class="hero-content ">
+                        class="col-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4  position-absolute top-50 translate-middle-y">
+                        <div class="hero-content">
                             <p class="fs-5 fw-semibold text-secondary mb-0">Hello I'm</p>
                             <h1 class="text-secondary pb-1">Aastha Patel,</h1>
                             <h2 class="text-secondary">Full Stack Development.</h2>
@@ -84,19 +72,21 @@
                             </div>
                         </div>
                     </div>
+                    <div class="d-none">
+                        <img src="./assests/images/my-img.png" alt="Hero Image"
+                            class=" position-absolute hero-profile bottom-0">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-primary">
+        <section class="text-bg-dark pad-x-y-10" id="about">
             <div class="container">
-                <div class="row py-5 justify-content-center">
+                <div class="row  justify-content-center">
                     <div class="d-flex  justify-content-center mb-5 col-lg-5 col-xl-4">
-                        <div class="card bg-primary rounded-5  about-me position-sticky top-30 " style="width:100%;">
-
+                        <div class="card text-bg-dark rounded-5  about-me position-sticky top-30 " style="width:100%;">
                             <div class="about-img m-3 rounded-4">
-                                <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/me.png"
-                                    class="card-img-top " alt="...">
+                                <img src="./assests/images/my-img.png" class="card-img-top " alt="profile">
                             </div>
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-secondary">Aastha Patel</h5>
@@ -105,25 +95,25 @@
                                     <div class="icon d-flex justify-content-between ">
                                         <div class="col-2">
                                             <div
-                                                class="icon-frame rounded-circle bg-primary d-flex justify-content-center align-items-center ">
+                                                class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
                                                 <i class="ri-basketball-line text-secondary-emphasis fs-4"></i>
                                             </div>
                                         </div>
                                         <div class="col-2">
                                             <div
-                                                class="icon-frame rounded-circle bg-primary d-flex justify-content-center align-items-center ">
+                                                class="icon-frame rounded-circle d-flex justify-content-center align-items-center ">
                                                 <i class="ri-twitter-line text-secondary-emphasis fs-4"></i>
                                             </div>
                                         </div>
                                         <div class="col-2">
                                             <div
-                                                class="icon-frame rounded-circle bg-primary d-flex justify-content-center align-items-center ">
+                                                class="icon-frame rounded-circle d-flex justify-content-center align-items-center ">
                                                 <i class="ri-instagram-line text-secondary-emphasis fs-4"></i>
                                             </div>
                                         </div>
                                         <div class="col-2">
                                             <div
-                                                class="icon-frame rounded-circle bg-primary d-flex justify-content-center align-items-center ">
+                                                class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
                                                 <i class="ri-facebook-box-line text-secondary-emphasis fs-4"></i>
                                             </div>
                                         </div>
@@ -135,11 +125,11 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-7  ms-xl-4">
+                    <div class="col-12 col-lg-6 col-xl-7 ms-xl-4">
                         <div class="about-content">
                             <div class="about">
                                 <h4 class="text-light pb-4">ABOUT ME</h4>
-                                <p class="text-secondary-emphasis">Sit amet luctussd fav venenatis, lectus magna
+                                <p class="text-secondary">Sit amet luctussd fav venenatis, lectus magna
                                     fringilla inis urna, porttitor rhoncus dolor purus non enim praesent in
                                     elementum sahas facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
                                     etisam dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio
@@ -159,7 +149,7 @@
                                         </p>
                                         <h5 class="card-title text-light fs-2">Web Development & Self-Driven
                                             Projects</h5>
-                                        <p class="card-text">Student Front-End Developer</p>
+                                        <p class="card-text text-primary">Student Front-End Developer</p>
                                         <div class="d-flex gap-2 align-items-center pb-2">
                                             <span><i class="ri-circle-fill"></i></span>
                                             <p class="text-light fs-5 fw-semibold m-0">Keypoins :</p>
@@ -201,8 +191,8 @@
                                         <h5 class="card-title text-light fs-3">Bachelor of Science in Information
                                             Technology (BSc.IT)</h5>
                                         <div class="d-flex gap-2 align-items-center">
-                                            <span><i class="ri-school-fill fs-5"></i></span>
-                                            <p class="card-text">Vidhyadeep University</p>
+                                            <span><i class="ri-school-fill fs-5 text-primary"></i></span>
+                                            <p class="card-text text-primary">Vidhyadeep University</p>
                                         </div>
                                         <div class="d-flex gap-2 align-items-center">
                                             <span><i class="ri-map-pin-2-fill fs-5"></i></span>
@@ -235,35 +225,408 @@
                     </div>
                 </div>
             </div>
-            </div>
         </section>
 
-        <!-- <section class=" bg-primary">
+        <section class="skills position-relative bg-dark" id="skills">
             <div class="container">
                 <div class="row">
-                    <div class="skills my-5 text-secondary">
-                        <div class="skills-title  text-center ">
-                            <p class="m-0 ">My Skills</p>
-                            <h4 class="m-0 text-light">Technologies I work with</h4>
-                        </div>
-                        <div class="skill-card  d-flex">
-                            <div class="col-3 border border-white">
-                                <img src="./assests/images/html.png" alt="" class="w-50">
+                    <div class="col-12">
+                        <div class="skill  rounded-2  rounded-4  mx-5 pad-x-y-10">
+                            <div class="col-7 mx-auto d-flex flex-column align-items-center">
+                                <div class="skills-title text-center ">
+                                    <p class="m-0 text-primary">My Skills</p>
+                                    <h4 class="m-0 text-light fs-1">Technologies I work with</h4>
+                                    <p class="text-secondary py-2">I have a strong foundation in web development and
+                                        programming, with expertise in HTML, CSS, C, C++, and Bootstrap. I am passionate
+                                        about creating responsive and user-friendly web applications that provide
+                                        seamless experiences for users.</p>
+                                </div>
                             </div>
-                            <div class="col-3 border border-white">
-                                <img src="./assests/images/css.png" alt="" class="w-50">
-                            </div>
-                            <div class="col-3 border border-white">
-                                <img src="./assests/images/c.png" alt="" class="w-50">
-                            </div>
-                            <div class="col-3 border border-white">
-                                <img src="./assests/images/cpp-t.png" alt="" class="w-100">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary"></p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
+                                            <div class="sk-card col-2 border border-primary rounded-4 pt-1">
+                                                <div
+                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                    <img src="./assests/images/html.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/c.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-50">
+                                                    <p class="text-primary"></p>
+                                                </div>
+                                            </div>
+                                            <div class="sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/css.png" alt="" class="w-50">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                            <div class=" sk-card col-2 border border-primary rounded-4">
+                                                <div
+                                                    class=" d-flex flex-column justify-content-center align-items-center pt-2">
+                                                    <img src="./assests/images/cpp.png" alt="" class="w-75">
+                                                    <p class="text-primary">HTML</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
+
+        <section class="projects pad-x-y-10 bg-dark" id="projects">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="text-primary fw-semibold mb-2">My Work</p>
+                    <h2 class="text-white fw-bold display-5">Recents Projects</h2>
+                    <p class="text-secondary">
+                        Here are some of my favorite web development projects.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="projectCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden text-bg-dark ">
+                                        <img src="./assests/images/project-1.png" class="card-img-top project-img"
+                                            alt="Velora">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Velora Marketplace
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A luxury handmade marketplace website
+                                                designed using HTML, CSS and Bootstrap.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-2.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Travel Website
+                                            </h3>
+                                            <p class="text-secondary">
+                                                Responsive travel landing page with
+                                                modern UI design.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-4.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Hospital Registration System
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A responsive hospital registration website designed to simplify patient
+                                                registration with a clean and user-friendly interface.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-6.png" class="card-img-top project-img"
+                                            alt="Travel">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Sandbox Landing Page
+                                            </h3>
+                                            <p class="text-secondary">
+                                                A modern business landing page built with Bootstrap, featuring a clean
+                                                layout, responsive design, and engaging hero section.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                        <img src="./assests/images/project-5.png" class="card-img-top project-img"
+                                            alt="Netflix">
+                                        <div class="card-body p-4">
+                                            <h3 class="text-white">
+                                                Netflix Clone
+                                            </h3>
+                                            <p class="text-secondary">
+                                                Netflix landing page clone with modern
+                                                responsive layout.
+                                            </p>
+                                            <div class="mb-4">
+                                                <span class="badge bg-primary me-2">HTML</span>
+                                                <span class="badge bg-primary me-2">CSS</span>
+                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                                            </div>
+                                            <a href="#" class="btn btn-primary">
+                                                Live Demo
+                                            </a>
+                                            <a href="#" class="btn btn-outline-light ms-2">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-indicators position-relative mt-4">
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0"
+                                    class="active"></button>
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pad-x-y-10 text-bg-dark" id="contact">
+            <div class="container">
+                <div class="contact-wrap p-lg-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-7">
+                            <div class="ps-3 pt-2">
+                                <p class="text-primary fw-semibold mb-2">CONTACT</p>
+                                <h2 class="fw-bold text-light">Let's Build Something Amazing</h2>
+                                <p class="text-secondary">Have a project in mind? Send me a message and I'll get back to
+                                    you soon.</p>
+                            </div>
+                            <div class="row g-3 m-1">
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Email"></div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Subject"></div>
+                                <div class="col-md-6"><input class="form-control py-3 bg-dark text-white"
+                                        placeholder="Phone"></div>
+                                <div class="col-12"><textarea class="form-control bg-dark text-white" rows="5"
+                                        placeholder="Write your message..."></textarea></div>
+                                <div class="col-12"><button class="btn btn-primary px-4 py-2">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="text-center mb-4"><i class="bi bi-chat-square-text display-1 text-primary"></i>
+                            </div>
+                            <div class="info-item d-flex"><i class="bi bi-telephone fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Phone</h6>
+                                    <p class="text-secondary m-0">+91 98765 43210</p>
+                                </div>
+                            </div>
+                            <div class="info-item d-flex"><i class="bi bi-envelope fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Email</h6>
+                                    <p class="text-secondary m-0">aastha2517@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex pt-3 pb-3"><i class="bi bi-geo-alt fs-4 text-primary me-3"></i>
+                                <div>
+                                    <h6>Location</h6>
+                                    <p class="text-secondary m-0">Surat, Gujarat, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pad-x-y-10 text-bg-dark border-top border-secondary-subtle">
+            <div class="container">
+                <div class="row g-4  border-bottom border-secondary-subtle pb-4">
+                    <div class="col-lg-4">
+                        <h3>Aastha</h3>
+                        <p class="text-secondary">Creating modern, responsive websites with clean UI and great user
+                            experience.</p>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <h6>Quick Links</h6>
+                        <a href="#home" class="text-secondary text-decoration-none">Home</a><br><a href="#about"
+                            class="text-secondary text-decoration-none">About</a><br><a href="#projects"
+                            class="text-secondary text-decoration-none">Projects</a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h6>Services</h6><a href="#" class="text-secondary text-decoration-none">Web Design</a><br><a
+                            href="#" class="text-secondary text-decoration-none">Frontend</a><br><a href="#"
+                            class="text-secondary text-decoration-none">Bootstrap</a>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <h6>Follow</h6>
+                        <i class="ri-github-fill me-3 fs-4 text-secondary"></i><i
+                            class="ri-linkedin-fill me-3 fs-4 text-secondary"></i><i
+                            class="ri-instagram-line me-3 fs-4 text-secondary"></i>
+                    </div>
+                </div>
+                <p class="text-center text-secondary mb-0 pt-2">© 2026 Aastha Patel. All Rights Reserved.</p>
+            </div>
+        </footer>
 
     </main>
 
