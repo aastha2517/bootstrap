@@ -1,0 +1,11 @@
+@media(max-width:575px){
+    .icon-xs{
+        width: 60%;
+    }
+}
+
+@media(min-width:992px){
+    .hero-lg-profile{
+        right: 5%;
+    }
+}

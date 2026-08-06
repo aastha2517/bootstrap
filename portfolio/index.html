@@ -9,6 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/media.css">
 </head>
 
 <body>
@@ -72,9 +73,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-none">
+                    <div class="d-none d-lg-block d-xxl-block">
                         <img src="./assests/images/my-img.png" alt="Hero Image"
-                            class=" position-absolute hero-profile bottom-0">
+                            class=" position-absolute hero-profile hero-lg-profile bottom-0">
                     </div>
                 </div>
             </div>
@@ -92,7 +93,7 @@
                                 <h5 class="card-title text-secondary">Aastha Patel</h5>
                                 <p class="card-title text-secondary-emphasis">@aastha2501</p>
                                 <div class="col-12 my-4">
-                                    <div class="icon d-flex justify-content-between ">
+                                    <div class="icon d-flex justify-content-between icon-xs">
                                         <div class="col-2">
                                             <div
                                                 class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
@@ -232,7 +233,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="skill  rounded-2  rounded-4  mx-5 pad-x-y-10">
-                            <div class="col-7 mx-auto d-flex flex-column align-items-center">
+                            <div class="col-11 col-sm-12 col-xxl-7 mx-auto d-flex flex-column align-items-center">
                                 <div class="skills-title text-center ">
                                     <p class="m-0 text-primary">My Skills</p>
                                     <h4 class="m-0 text-light fs-1">Technologies I work with</h4>
@@ -378,169 +379,177 @@
             </div>
         </section>
 
-        <section class="projects pad-x-y-10 bg-dark" id="projects">
+        <section class="projects pad-x-y-10 bg-dark py-5 my-5 py-xxl-0 my-xxl-0" id="projects">
             <div class="container">
-                <div class="text-center mb-5">
-                    <p class="text-primary fw-semibold mb-2">My Work</p>
-                    <h2 class="text-white fw-bold display-5">Recents Projects</h2>
-                    <p class="text-secondary">
-                        Here are some of my favorite web development projects.
-                    </p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div id="projectCarousel" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="card project-card border-0 rounded-4 overflow-hidden text-bg-dark ">
-                                        <img src="./assests/images/project-1.png" class="card-img-top project-img"
-                                            alt="Velora">
-                                        <div class="card-body p-4">
-                                            <h3 class="text-white">
-                                                Velora Marketplace
-                                            </h3>
-                                            <p class="text-secondary">
-                                                A luxury handmade marketplace website
-                                                designed using HTML, CSS and Bootstrap.
-                                            </p>
-                                            <div class="mb-4">
-                                                <span class="badge bg-primary me-2">HTML</span>
-                                                <span class="badge bg-primary me-2">CSS</span>
-                                                <span class="badge bg-primary me-2">Bootstrap</span>
+                <div class="row">
+                    <div class="text-center mb-5">
+                        <p class="text-primary fw-semibold mb-2">My Work</p>
+                        <h2 class="text-white fw-bold display-5">Recents Projects</h2>
+                        <p class="text-secondary">
+                            Here are some of my favorite web development projects.
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-10">
+                            <div id="projectCarousel" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                            <img src="./assests/images/project-4.png" class="card-img-top project-img"
+                                                alt="Travel">
+                                            <div class="card-body p-4">
+                                                <h3 class="text-white">
+                                                    Hospital Registration System
+                                                </h3>
+                                                <p class="text-secondary">
+                                                    A responsive hospital registration website designed to simplify
+                                                    patient
+                                                    registration with a clean and user-friendly interface.
+                                                </p>
+                                                <div class="mb-4">
+                                                    <span class="badge bg-primary me-2">HTML</span>
+                                                    <span class="badge bg-primary me-2">CSS</span>
+                                                    <span class="badge bg-primary me-2">Bootstrap</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">
+                                                    Live Demo
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light ms-2">
+                                                    GitHub
+                                                </a>
                                             </div>
-                                            <a href="#" class="btn btn-primary">
-                                                Live Demo
-                                            </a>
-                                            <a href="#" class="btn btn-outline-light ms-2">
-                                                GitHub
-                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card project-card border-0 rounded-4 overflow-hidden text-bg-dark ">
+                                            <img src="./assests/images/project-1.png" class="card-img-top project-img"
+                                                alt="Velora">
+                                            <div class="card-body p-4">
+                                                <h3 class="text-white">
+                                                    Velora Marketplace
+                                                </h3>
+                                                <p class="text-secondary">
+                                                    A luxury handmade marketplace website
+                                                    designed using HTML, CSS and Bootstrap.
+                                                </p>
+                                                <div class="mb-4">
+                                                    <span class="badge bg-primary me-2">HTML</span>
+                                                    <span class="badge bg-primary me-2">CSS</span>
+                                                    <span class="badge bg-primary me-2">Bootstrap</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">
+                                                    Live Demo
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light ms-2">
+                                                    GitHub
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                            <img src="./assests/images/project-2.png" class="card-img-top project-img"
+                                                alt="Travel">
+                                            <div class="card-body p-4">
+                                                <h3 class="text-white">
+                                                    Travel Website
+                                                </h3>
+                                                <p class="text-secondary">
+                                                    Responsive travel landing page with
+                                                    modern UI design.
+                                                </p>
+                                                <div class="mb-4">
+                                                    <span class="badge bg-primary me-2">HTML</span>
+                                                    <span class="badge bg-primary me-2">CSS</span>
+                                                    <span class="badge bg-primary me-2">Bootstrap</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">
+                                                    Live Demo
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light ms-2">
+                                                    GitHub
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                            <img src="./assests/images/project-6.png" class="card-img-top project-img"
+                                                alt="Travel">
+                                            <div class="card-body p-4">
+                                                <h3 class="text-white">
+                                                    Sandbox Landing Page
+                                                </h3>
+                                                <p class="text-secondary">
+                                                    A modern business landing page built with Bootstrap, featuring a
+                                                    clean
+                                                    layout, responsive design, and engaging hero section.
+                                                </p>
+                                                <div class="mb-4">
+                                                    <span class="badge bg-primary me-2">HTML</span>
+                                                    <span class="badge bg-primary me-2">CSS</span>
+                                                    <span class="badge bg-primary me-2">Bootstrap</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">
+                                                    Live Demo
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light ms-2">
+                                                    GitHub
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card project-card border-0 rounded-4 overflow-hidden">
+                                            <img src="./assests/images/project-5.png" class="card-img-top project-img"
+                                                alt="Netflix">
+                                            <div class="card-body p-4">
+                                                <h3 class="text-white">
+                                                    Netflix Clone
+                                                </h3>
+                                                <p class="text-secondary">
+                                                    Netflix landing page clone with modern
+                                                    responsive layout.
+                                                </p>
+                                                <div class="mb-4">
+                                                    <span class="badge bg-primary me-2">HTML</span>
+                                                    <span class="badge bg-primary me-2">CSS</span>
+                                                    <span class="badge bg-primary me-2">Bootstrap</span>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">
+                                                    Live Demo
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light ms-2">
+                                                    GitHub
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
-                                        <img src="./assests/images/project-2.png" class="card-img-top project-img"
-                                            alt="Travel">
-                                        <div class="card-body p-4">
-                                            <h3 class="text-white">
-                                                Travel Website
-                                            </h3>
-                                            <p class="text-secondary">
-                                                Responsive travel landing page with
-                                                modern UI design.
-                                            </p>
-                                            <div class="mb-4">
-                                                <span class="badge bg-primary me-2">HTML</span>
-                                                <span class="badge bg-primary me-2">CSS</span>
-                                                <span class="badge bg-primary me-2">Bootstrap</span>
-                                            </div>
-                                            <a href="#" class="btn btn-primary">
-                                                Live Demo
-                                            </a>
-                                            <a href="#" class="btn btn-outline-light ms-2">
-                                                GitHub
-                                            </a>
-                                        </div>
-                                    </div>
+
+                                <div class="carousel-indicators position-relative mt-4">
+
+                                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0"
+                                        class="active"></button>
+
+                                    <button type="button" data-bs-target="#projectCarousel"
+                                        data-bs-slide-to="1"></button>
+
+                                    <button type="button" data-bs-target="#projectCarousel"
+                                        data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#projectCarousel"
+                                        data-bs-slide-to="3"></button>
+                                    <button type="button" data-bs-target="#projectCarousel"
+                                        data-bs-slide-to="4"></button>
+
                                 </div>
-
-                                <div class="carousel-item">
-                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
-                                        <img src="./assests/images/project-4.png" class="card-img-top project-img"
-                                            alt="Travel">
-                                        <div class="card-body p-4">
-                                            <h3 class="text-white">
-                                                Hospital Registration System
-                                            </h3>
-                                            <p class="text-secondary">
-                                                A responsive hospital registration website designed to simplify patient
-                                                registration with a clean and user-friendly interface.
-                                            </p>
-                                            <div class="mb-4">
-                                                <span class="badge bg-primary me-2">HTML</span>
-                                                <span class="badge bg-primary me-2">CSS</span>
-                                                <span class="badge bg-primary me-2">Bootstrap</span>
-                                            </div>
-                                            <a href="#" class="btn btn-primary">
-                                                Live Demo
-                                            </a>
-                                            <a href="#" class="btn btn-outline-light ms-2">
-                                                GitHub
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
-                                        <img src="./assests/images/project-6.png" class="card-img-top project-img"
-                                            alt="Travel">
-                                        <div class="card-body p-4">
-                                            <h3 class="text-white">
-                                                Sandbox Landing Page
-                                            </h3>
-                                            <p class="text-secondary">
-                                                A modern business landing page built with Bootstrap, featuring a clean
-                                                layout, responsive design, and engaging hero section.
-                                            </p>
-                                            <div class="mb-4">
-                                                <span class="badge bg-primary me-2">HTML</span>
-                                                <span class="badge bg-primary me-2">CSS</span>
-                                                <span class="badge bg-primary me-2">Bootstrap</span>
-                                            </div>
-                                            <a href="#" class="btn btn-primary">
-                                                Live Demo
-                                            </a>
-                                            <a href="#" class="btn btn-outline-light ms-2">
-                                                GitHub
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="card project-card border-0 rounded-4 overflow-hidden">
-                                        <img src="./assests/images/project-5.png" class="card-img-top project-img"
-                                            alt="Netflix">
-                                        <div class="card-body p-4">
-                                            <h3 class="text-white">
-                                                Netflix Clone
-                                            </h3>
-                                            <p class="text-secondary">
-                                                Netflix landing page clone with modern
-                                                responsive layout.
-                                            </p>
-                                            <div class="mb-4">
-                                                <span class="badge bg-primary me-2">HTML</span>
-                                                <span class="badge bg-primary me-2">CSS</span>
-                                                <span class="badge bg-primary me-2">Bootstrap</span>
-                                            </div>
-                                            <a href="#" class="btn btn-primary">
-                                                Live Demo
-                                            </a>
-                                            <a href="#" class="btn btn-outline-light ms-2">
-                                                GitHub
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-indicators position-relative mt-4">
-
-                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0"
-                                    class="active"></button>
-
-                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
-
-                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
-                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
-                                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
-
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
