@@ -186,3 +186,8 @@
 a:hover {
     color: #fff
 }
+
+
+.form-control::placeholder{
+    color: white;
+}
