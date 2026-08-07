@@ -9,3 +9,8 @@
         right: 5%;
     }
 }
+@media(min-width:1400px){
+    .hero-lg-profile{
+        right: 10%;
+    }
+}

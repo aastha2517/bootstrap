@@ -7,7 +7,7 @@
 
 
 }
-
+/* Header */
 .navbar .nav-link {
     position: relative;
     transition: color .3s;
@@ -23,7 +23,7 @@
     background: #CBD5E1;
     transition: width .3s;
 }
-.pad-x-y-10{
+.pad-x-y-5{
     padding: 5% 0;
 }
 .navbar .nav-link:hover {
@@ -36,9 +36,7 @@
 .navbar-toggler-icon{
     background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
-/* .navbar-brand img{
-    width: 15%;
-} */
+
 .btn-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #323232;
@@ -55,6 +53,8 @@
     --bs-btn-disabled-border-color: #323232;
 }
 
+/* Hero Section */
+
 .hero-sec {
     height: 80vh;
     background:
@@ -65,21 +65,25 @@
         #000;
 }
 
-.hero-profile {
-    right: 10%;
+.btn-light {
+    --bs-btn-hover-color: ##000;
+    --bs-btn-hover-bg: #323232;
+    --bs-btn-hover-border-color: #323232;
 }
+
+/* About Me */
 
 .about-img {
     background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
 }
 
-/* .card{
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
-} */
 .icon .icon-frame,
 .experience .card,
 .education .card ,.project-card {
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
+}
+.icon .icon-frame:hover{
+    background-color: #000;
 }
 
 .card::before {
@@ -104,7 +108,10 @@
 .icon .icon-frame {
     aspect-ratio: 1/1;
 }
-
+/* Skills */
+.skill-card{
+    height: 25vh;
+}
 /* .icon-frame{
     width:52px;
     height:52px;
