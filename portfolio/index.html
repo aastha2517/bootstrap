@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/media.css">
 </head>
@@ -57,7 +60,7 @@
 
     <main class="text-bg-dark">
         <!-- Hero Section -->
-        <section class=" hero-sec  position-relative pad-x-y-5 mb-4" id="home">
+        <!-- <section class=" hero-sec  position-relative pad-x-y-5 mb-4" id="home">
             <div class="container">
                 <div class="row">
                     <div
@@ -81,23 +84,85 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+        <section class="position-relative hero-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4  position-absolute top-50 translate-middle-y">
+                        
+                            <div class="hero-content">
+                                <p class="fs-5 fw-semibold text-secondary mb-0">Hello I'm</p>
+                                <h1 class="text-light pb-1">Aastha Patel,</h1>
+                                <h2 class="text-light">Full Stack Development.</h2>
+                                <p class="text-light py-2">I design and develop modern, responsive websites with clean
+                                    code and intuitive user experiences. Passionate about transforming ideas into
+                                    beautiful
+                                    digital products.</p>
+                                <div class="hero-btn d-flex gap-3">
+                                    <button class="btn btn-light">View My Projects</button>
+                                    <button class="btn btn-secondary">Download CV</button>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="icon d-flex justify-content-start flex-wrap mx-auto">
+                                        <div class="col-2">
+                                            <div
+                                                class="hero-icon rounded-circle  d-flex justify-content-center align-items-center ">
+                                                <i class="ri-github-fill text-secondary-emphasis fs-3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="hero-icon rounded-circle d-flex justify-content-center align-items-center ">
+                                                <i class="ri-linkedin-box-fill text-secondary-emphasis fs-3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="hero-icon rounded-circle d-flex justify-content-center align-items-center ">
+                                                <i class="ri-twitter-x-fill text-secondary-emphasis fs-3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div
+                                                class="hero-icon rounded-circle  d-flex justify-content-center align-items-center ">
+                                                <i class="ri-mail-fill text-secondary-emphasis fs-3"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <!-- <div class="">
+                        <img src="./assests/images/hero-img.png" alt="" class="img-fluid">
+                    </div> -->
+                    <div class="terminal position-absolute col-3">
+                        <img src="./assests/images/terminal.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="curly-braces position-absolute">
+                        <i class="ri-braces-line text-light fs-1"></i>
+                    </div>
+                    <div class="code-box position-absolute">
+                        <i class="ri-code-s-slash-line text-light fs-1"></i>
+                    </div>
+                </div>
+            </div>
         </section>
-
         <!-- About Me -->
         <section class="text-bg-dark pad-x-y-5" id="about">
             <div class="container">
                 <div class="row  justify-content-center">
-                    <div class="d-flex  mb-5 col-lg-5 col-xl-4">
+                    <div class="col-md-8  d-flex  mb-5 col-lg-5 col-xl-4 col-10">
                         <div class="card text-bg-dark rounded-5  about-me position-sticky top-0 " style="width:100%;">
                             <div class="about-img m-3 rounded-4">
-                                <img src="./assests/images/my-img.png" class="card-img-top " alt="profile">
+                                <img src="./assests/images/profile.png" class="card-img-top " alt="profile">
                             </div>
                             <div class="card-body text-center ">
                                 <h5 class="card-title text-light">Aastha Patel</h5>
                                 <p class="card-title text-secondary-emphasis">@aastha2501</p>
                                 <div class="col-12 my-4">
                                     <div
-                                        class="icon d-flex justify-content-center justify-content-sm-between flex-wrap gap-3 icon-xs">
+                                        class="icon d-flex justify-content-center justify-content-sm-between flex-wrap gap-3 mx-auto">
                                         <div class="col-2">
                                             <div
                                                 class="icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
@@ -233,159 +298,173 @@
         </section>
 
         <!-- Skills -->
-        <section class="skills position-relative bg-dark pt-5" id="skills">
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="skill  rounded-2  rounded-4  mx-5 ">
-                            <div class="col-11 col-sm-12 col-xxl-7 mx-auto d-flex flex-column align-items-center">
-                                <div class="skills-title text-center ">
-                                    <p class="m-0 text-primary">My Skills</p>
-                                    <h4 class="m-0 text-light fs-1">Technologies I work with</h4>
-                                    <p class="text-secondary py-2">I have a strong foundation in web development and
-                                        programming, with expertise in HTML, CSS, C, C++, and Bootstrap. I am passionate
-                                        about creating responsive and user-friendly web applications that provide
-                                        seamless experiences for users.</p>
+                        <div class="skills">
+                            <div class="col-lg-8 col-xxl-6 mx-auto">
+                                <div class="text-center mb-5">
+                                    <p class="text-primary fw-semibold mb-2 margin-t-10">My Skills</p>
+                                    <h2 class="text-white fw-bold display-5">Technologies I work with</h2>
+                                    <p class="text-secondary">
+                                        I use modern technologies and creative tools to build responsive, functional,
+                                        and
+                                        engaging digital experiences. Continuously learning and improving to turn ideas
+                                        into
+                                        impactful digital solutions.
+                                    </p>
                                 </div>
                             </div>
-                            <div id="carouselExampleIndicators" class="carousel slide">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="0" class="active" aria-current="true"
-                                        aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <div class="col-xxl-12 d-flex gap-4 justify-content-center flex-wrap">
+                                <div class="col-12 col-lg-4 col-xl-3">
+                                    <div class="card " style="width: 100%;">
+                                        <div class="card-body ">
+                                            <h6 class="card-subtitle mb-2 text-body-light d-flex float-end fs-3"><i
+                                                    class="ri-code-s-slash-line text-light"></i></h6>
+                                            <h5
+                                                class="card-title border-1 border-bottom border-secondary-subtle pb-3 text-light">
+                                                WEB
+                                                DEVELOPMENT</h5>
+                                            <div class="col-12 my-4 ">
+                                                <div
+                                                    class="icon d-flex  justify-content-sm-between flex-wrap gap-3 icon-xs d-flex flex-column ">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
+                                                            <span><i
+                                                                    class="ri-html5-fill fs-2 text-secondary-emphasis"></i></span>
+                                                        </div>
+                                                        <p class="text-light m-0">HTML5</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <i
+                                                                class="fa-brands fa-css3-alt text-secondary-emphasis fs-2"></i>
+                                                        </div>
+                                                        <p class="text-light m-0">CSS3</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <i
+                                                                class="ri-bootstrap-fill text-secondary-emphasis fs-2"></i>
+                                                        </div>
+                                                        <p class="text-light m-0">BOOTSTRAP</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="icon-link icon-link-hover text-decoration-none"
+                                                style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+                                                View More
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                                    aria-hidden="true">
+                                                    <path
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
-                                            <div
-                                                class="sk-card col-2 border border-primary rounded-4  d-flex flex-column align-items-center">
+                                <div class="col-12 col-lg-4 col-xl-3">
+                                    <div class="card d-flex gap-3" style="width: 100%;">
+                                        <div class="card-body ">
+                                            <h6 class="card-subtitle mb-2 text-body-light d-flex float-end fs-3"><i
+                                                    class="fa-solid fa-laptop-code text-light"></i></h6>
+                                            <h5
+                                                class="card-title border-1 border-bottom border-secondary-subtle pb-3 text-light">
+                                                PROGRAMMING</h5>
+                                            <div class="col-12 my-4 ">
                                                 <div
-                                                    class="d-flex h-100 flex-column justify-content-center align-items-center">
-                                                    <img src="./assests/images/html.png" alt="" class="w-75">
-                                                    <p class="text-primary">HTML</p>
+                                                    class="icon d-flex  justify-content-sm-between flex-wrap gap-3 icon-xs d-flex flex-column ">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
+                                                            <span class="fs-4 text-secondary-emphasis fw-bold">C</span>
+                                                        </div>
+                                                        <p class="text-light m-0">C LANGUAGE</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <span
+                                                                class="fs-5 text-secondary-emphasis fw-bold">C++</span>
+                                                        </div>
+                                                        <p class="text-light m-0">C++</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <i
+                                                                class="fa-brands fa-python text-secondary-emphasis fs-2"></i>
+                                                        </div>
+                                                        <p class="text-light m-0">PYTHON</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4 ">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/c.png" alt="" class="w-75">
-                                                    <p class="text-primary">C LANGUAGE</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4 ">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/bootstrap.webp" alt="" class="w-75">
-                                                    <p class="text-primary">BOOTSTRAP</p>
-                                                </div>
-                                            </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4 ">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/css.png" alt="" class="w-75">
-                                                    <p class="text-primary">CSS</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4 ">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/cpp.png" alt="" class="w-100">
-                                                    <p class="text-primary">C++</p>
-                                                </div>
-                                            </div>
+                                            <a class="icon-link icon-link-hover text-decoration-none"
+                                                style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+                                                View More
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                                    aria-hidden="true">
+                                                    <path
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
-                                            <div class="sk-card col-2 border border-primary rounded-4 ">
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-3">
+                                    <div class="card d-flex gap-3" style="width: 100%;">
+                                        <div class="card-body ">
+                                            <h6 class="card-subtitle mb-2 text-body-light d-flex float-end fs-3"><i
+                                                    class="ri-code-s-slash-line text-light"></i></h6>
+                                            <h5
+                                                class="card-title border-1 border-bottom border-secondary-subtle pb-3 text-light">
+                                                DESIGNING TOOLS</h5>
+                                            <div class="col-12 my-4 ">
                                                 <div
-                                                    class="d-flex flex-column justify-content-center align-items-center h-100">
-                                                    <img src="./assests/images/python.webp" alt="" class="w-50 pb-4">
-                                                    <p class="text-primary">PYTHON</p>
+                                                    class="icon d-flex  justify-content-sm-between flex-wrap gap-3 icon-xs d-flex flex-column ">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle  d-flex justify-content-center align-items-center ">
+                                                            <span class="fs-5 text-secondary-emphasis fw-bold">Ps</span>
+                                                        </div>
+                                                        <p class="text-light m-0">PHOTOSHOP</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <span class="fs-5 text-secondary-emphasis fw-bold">Pr</span>
+                                                        </div>
+                                                        <p class="text-light m-0">PREMIERE PRO</p>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div
+                                                            class="skill icon-frame rounded-circle d-flex justify-content-center align-items-center ">
+                                                            <i
+                                                                class="fa-brands fa-square-figma text-secondary-emphasis fs-2"></i>
+                                                        </div>
+                                                        <p class="text-light m-0">FIGMA</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/github.webp" alt="" class="w-50 pb-3">
-                                                    <p class="text-primary">GITHUB</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/vs-code.png" alt="" class="w-50 pb-3">
-                                                    <p class="text-primary">VS CODE</p>
-                                                </div>
-                                            </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/git.png" alt="" class="w-75 pb-2">
-                                                    <p class="text-primary">GIT</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center  h-100">
-                                                    <img src="./assests/images/sql.webp" alt="" class="w-50 pb-2">
-                                                    <p class="text-primary">SQL</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="skill-card  d-flex justify-content-around mt-5 ">
-                                            <div class="sk-card col-2 border border-primary rounded-4 ">
-                                                <div
-                                                    class="d-flex flex-column justify-content-center align-items-center h-100">
-                                                    <img src="./assests/images/photoshop.webp" alt="" class="w-75">
-                                                    <p class="text-primary">PHOTOSHOP</p>
-                                                </div>
-                                            </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center h-100 ">
-                                                    <img src="./assests/images/premiere-pro.webp" alt=""
-                                                        class="w-50 pb-3">
-                                                    <p class="text-primary ">PREMIERE PRO</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center h-100">
-                                                    <img src="./assests/images/figma.png" alt="" class="w-50 pb-4">
-                                                    <p class="text-primary">FIGMA</p>
-                                                </div>
-                                            </div>
-                                            <div class="sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center h-100">
-                                                    <img src="./assests/images/android-studio.webp" alt=""
-                                                        class="w-50 pb-4">
-                                                    <p class="text-primary">ANDROIO STUDIO</p>
-                                                </div>
-                                            </div>
-                                            <div class=" sk-card col-2 border border-primary rounded-4">
-                                                <div
-                                                    class=" d-flex flex-column justify-content-center align-items-center h-100">
-                                                    <img src="./assests/images/Google-Sheets.png" alt=""
-                                                        class="w-50 pb-1">
-                                                    <p class="text-primary">GOOGLE SHEET</p>
-                                                </div>
-                                            </div>
+                                            <a class="icon-link icon-link-hover text-decoration-none"
+                                                style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+                                                View More
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                                    aria-hidden="true">
+                                                    <path
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
 
         <!-- Projects -->
@@ -588,14 +667,16 @@
                                             placeholder="Phone"></div>
                                     <div class="col-12"><textarea class="form-control bg-dark text-white" rows="5"
                                             placeholder="Write your message..."></textarea></div>
-                                    <div class="col-12"><button class="btn btn-primary px-4 py-2">Send Message</button>
+                                    <div class="col-12"><button class="btn btn-secondary px-4 py-2">Send
+                                            Message</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div class="col-lg-5">
                             <div class=" mb-4">
-                                <div class="info-item d-flex pb-4"><i class="bi bi-telephone fs-4 text-primary me-3"></i>
+                                <div class="info-item d-flex pb-4"><i
+                                        class="bi bi-telephone fs-4 text-primary me-3"></i>
                                     <div>
                                         <h6>Phone</h6>
                                         <p class="text-secondary m-0">+91 98765 43210</p>

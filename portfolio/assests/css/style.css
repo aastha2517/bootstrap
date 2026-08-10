@@ -4,6 +4,7 @@
     --bs-secondary-text-emphasis: #676767;
     --bs-emphasis-color-rgb: 203, 213, 225;
     --bs-secondary-border-subtle: #9ca3af6e;
+    --bs-link-hover-color-rgb: #fff;
 
 
 }
@@ -56,13 +57,17 @@
 /* Hero Section */
 
 .hero-sec {
-    height: 80vh;
-    background:
+    height: 100vh;
+    /* background:
         radial-gradient(circle at 75% 60%,
         rgba(37,99,235,.35) 0%,
         rgba(37,99,235,.15) 25%,
         rgba(0,0,0,0) 60%),
-        #000;
+        #000; */
+        background-image: url(../images/hero-img.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .btn-light {
@@ -71,6 +76,27 @@
     --bs-btn-hover-border-color: #323232;
 }
 
+.hero-icon{
+    width: 50px;
+    height: 50px;
+}
+.terminal{
+        right: 30%;
+    bottom: 5%;
+
+}
+.curly-braces,.code-box {
+    top: 30%;
+    right: 45%;
+    background-color: #3232328a;
+    border: 1px solid #323232;
+    border-radius: 10px;
+    width: 70px;
+}
+.code-box{
+    top: 10%;
+    right: 10%;
+}
 /* About Me */
 
 .about-img {
@@ -79,10 +105,10 @@
 
 .icon .icon-frame,
 .experience .card,
-.education .card ,.project-card {
+.education .card ,.project-card,.hero-icon {
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
 }
-.icon .icon-frame:hover{
+.icon .icon-frame:hover,.hero-icon:hover{
     background-color: #fff;
 }
 
@@ -113,6 +139,10 @@
 /* Skills */
 .skill-card{
     height: 25vh;
+}
+.icon-frame,.skill{
+    width: 60px;
+    height: 60px;
 }
 /* .icon-frame{
     width:52px;
