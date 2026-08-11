@@ -1,8 +1,14 @@
-/* @media(max-width:575px){
-    .icon-xs{
-        width: 60%;
+@media(max-width:575px){
+    .hero-sec-xs{
+        background-position:right;
+        /* padding-top: 164px; */
     }
-} */
+}
+@media(min-width:576px){
+    .hero-sec-s{
+        background-position:right;
+    }
+}
 
 /* @media(min-width:992px){
     .hero-lg-profile{
