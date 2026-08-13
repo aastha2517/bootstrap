@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-secondary-rgb: 71, 59, 57;
+     --bs-warning-bg-subtle: #f7f0de;
+     --bs-nav-pills-link-active-bg: #ffc107;
+}
+.nav-pills {
+    --bs-nav-pills-border-radius:20px;
+    --bs-nav-pills-link-active-color: #000000;
+    --bs-nav-pills-link-active-bg: #ffc107;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    
+}
+.icon:hover{
+    background-color: rgb(71, 59, 57);
+    color: #f7f0de;
+}
