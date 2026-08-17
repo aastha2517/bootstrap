@@ -21,6 +21,9 @@
     list-style: none;
     box-sizing: border-box;
 }
+.margin-10{
+    margin: 10% 0;
+}
 .shipping{
     background-color:rgb(241, 226, 211);
 }
@@ -107,13 +110,13 @@
 .slide-3-icon p{
     font-size: 13px;
 }
-.faq-img {
+/* .faq-img {
     background-image: url(../images/faq-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-}
+} */
 .faq-section{
     height: 100vh;
 
