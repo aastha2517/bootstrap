@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/media.css">
+
+    <title>SHOP</title>
+</head>
+
+<body class="bg-body-tertiary">
+    <section class="shipping">
+        <div class="container">
+            <div class="col-row">
+                <div class="col-12 d-flex pt-1">
+                    <div class="col-7">
+                        <div class="free-ship d-flex gap-3 text-primary align-item-center pt-1">
+                            <span><i class="ri-truck-line fs-3 "></i></span>
+                            <p class="fs-6 fw-semibold pt-1">Free Shipping on Orders over ₹999</p>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div
+                            class="contact d-flex gap-3 justify-content-end pe-5 text-primary fs-6 fw-semibold pt-1 d-none d-lg-flex">
+                            <p>Track Order</p>
+                            <p>|</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="d-flex fs-4 text-primary fw-light gap-3 justify-content-end d-lg-none">
+                            <i class="ri-box-3-line pt-1"></i>
+                            <p class="fw-semibold">|</p>
+                            <i class="ri-contacts-line pt-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar">
+                        <div class="col-4 col-sm-5 col-md-4 col-lg-3 col-xl-2">
+                            <div class="logo ">
+                                <img src="./assests/images/logo.png" alt="logo" class="w-75 ">
+                            </div>
+                        </div>
+                        <div class="col-6 d-none d-xl-block col-xl-6">
+                            <div class="navigation navbar-collapse">
+                                <ul class="navbar-nav flex-row justify-content-center">
+                                    <li class="nav-item px-3 py-3">
+                                        <a class="nav-link active text-primary link-primary " aria-current="page"
+                                            href="#home">Home</a>
+
+                                    </li>
+                                    <li class="nav-item dropdown px-3 py-3">
+                                        <a class="nav-link dropdown-toggle text-primary link-primary"
+                                            href="#shop">Shop</a>
+                                        <ul class="dropdown-menu me-2">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown px-3 py-3">
+                                        <a class="nav-link dropdown-toggle text-primary link-primary" href="#categories"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categories
+                                        </a>
+                                        <ul class="dropdown-menu me-2">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-primary px-3 py-3">
+                                        <a class="nav-link dropdown-toggle link-primary" href="#artisans">Artisans</a>
+                                        <ul class="dropdown-menu me-2">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item text-primary px-3 py-3">
+                                        <a class="nav-link link-primary" href="#about">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-6 col-xl-4">
+                            <div class="nav-icon d-flex gap-5 justify-content-between">
+                                <form class="d-flex " role="search">
+                                    <div class="search d-flex rounded-5 gap-1 p-0 align-items-center d-none d-md-flex ">
+                                        <span><i class="fa-solid fa-magnifying-glass ps-2 text-primary "></i></span>
+                                        <input
+                                            class="form-control bg-transparent border-0 fw-semibold text-primary px-3 d-md-none d-lg-flex d-xl-none d-xxl-flex"
+                                            type="search" placeholder="Search Products..." aria-label="Search" />
+                                        <input
+                                            class="form-control bg-transparent border-0 fw-semibold text-primary d-md-flex d-lg-none d-xl-flex d-xxl-none"
+                                            type="search" placeholder="Search " aria-label="Search" />
+                                    </div>
+                                </form>
+                                <ul class="d-flex gap-3 fs-5 m-0 p-0 ">
+                                    <li><i class="ri-menu-fill d-xs-block d-xl-none"></i></li>
+                                    <li><i class="ri-poker-hearts-line"></i></li>
+                                    <li><i class="ri-shopping-bag-line"></i></li>
+                                    <li><i class="ri-user-line me-xxl-5"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--  -->
+        <!-- <section class="margin-bottom-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 position-relative">
+                        <div class="hero-img start-0 top-0 justify-content-center">
+                            <img src="./assests/images/hero-img-1.jpg" alt="" class="w-100 ">
+                            <div class="hero-content col-12 position-absolute start-50 top-50 translate-middle">
+                                <div class="hero-title text-center">
+                                    <h2 class="display-4 text-secondary fw-medium">Every Handmade Piece ,
+                                        Has a Story to
+                                        Tell</h2>
+                                </div>
+                                <div class="col-6 text-center mx-auto">
+                                    <p class="fw-medium pt-2 text-secondary">Explore a curated collection of
+                                        beautifully
+                                        crafted treasures, where traditional artistry meets modern elegance.
+                                        Each piece
+                                        is thoughtfully made by skilled artisans and created to add warmth
+                                        and character
+                                        to your space.</p>
+                                </div>
+                                <div class="hero-btn pt-2 text-center">
+                                    <button class="btn btn-warning">SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--  -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-primary fs-3 text-center pb-3">EXPLORE VELORA</h4>
+                        <div class="col-12">
+                            <div class="explore d-flex justify-content-center flex-column align-items-center ">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-all" type="button" role="tab"
+                                            aria-controls="pills-home" aria-selected="true">
+                                            <p class="m-0"><i class="ri-gallery-view-2 fs-5"></i></p>All
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-decor" type="button" role="tab"
+                                            aria-controls="pills-profile" aria-selected="false">
+                                            <p class="m-0"><i class="ri-home-heart-line fs-5"></i></p>Home Decor
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-ceramics" type="button" role="tab"
+                                            aria-controls="pills-contact" aria-selected="false">
+                                            <p class="m-0"><i class="ri-bowl-line fs-5"></i></p>Ceramics
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-textiles" type="button" role="tab"
+                                            aria-controls="pills-contact" aria-selected="false">
+                                            <p class="m-0"><i class="ri-flower-line  fs-5"></i></p>Textiles
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-jewellery" type="button" role="tab"
+                                            aria-controls="pills-contact" aria-selected="false">
+                                            <p class="m-0"><i class="ri-diamond-ring-line fs-5"></i></p>Jewellery
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-gifts" type="button" role="tab"
+                                            aria-controls="pills-contact" aria-selected="false">
+                                            <p class="m-0"><i class="ri-gift-line fs-5"></i></p>Gifts
+                                        </button>
+                                    </li>
+                                    <li class="nav-item px-4" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-artisan-stories" type="button" role="tab"
+                                            aria-controls="pills-contact" aria-selected="false">
+                                            <p class="m-0"><i class="ri-user-line fs-5"></i></p>Artisan Stories
+                                        </button>
+                                    </li>
+
+                                </ul>
+                                <div class="tab-content w-100" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                                        aria-labelledby="pills-home-tab" tabindex="0">
+                                        <h4 class="text-primary fw-semibold text-center">ALL PRODUCTS</h4>
+                                        <p class="text-center text-primary">Handcrafted pieces , chosen for you</p>
+                                        <div class="col-12">
+                                            <div
+                                                class="filter border border-color rounded-2 d-flex column-gap-3 py-2 align-items-center justify-content-evenly">
+                                                <div class="col-2">
+                                                    <p class="m-0">Showing 1-24 of 120 Products</p>
+                                                </div>
+                                                <div class="col-1 border-start">
+                                                    <div
+                                                        class="ms-3 filter-menu border border-color rounded-2 py-1 text-center">
+                                                        <i class="ri-filter-line"></i>
+                                                        filter
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <div
+                                                        class="filter-menu border border-color rounded-2 py-1 text-center">
+                                                        
+                                                        Price
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <div
+                                                        class="filter-menu border border-color rounded-2 py-1 text-center">
+                                                        
+                                                        Category
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <div
+                                                        class="filter-menu border border-color rounded-2 py-1 text-center">
+                                                        
+                                                        Rating
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <div
+                                                        class="filter-menu border border-color rounded-2 py-1 text-center">
+                                                        
+                                                        Newest
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="sort">
+                                                        <p class="m-0">Sort By:</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <div
+                                                        class="filter-menu border border-color rounded-2 py-1 text-center">
+                                                        Feature
+                                                        <i class="ri-arrow-drop-down-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 border-start">
+                                                    <div class="ms-3 btn-group">
+                                                        <a href="#" class="btn btn-primary active fs-6"
+                                                            aria-current="page"><i class="ri-gallery-view-2 fs-5"></i></a>
+                                                        <a href="#" class="btn border-color"><i class="ri-menu-line"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-decor" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab" tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima totam
+                                        doloribus veniam quisquam ratione nemo, facilis excepturi labore odio id quasi
+                                        sint doloremque iusto placeat harum hic ipsa optio.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-ceramics" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab" tabindex="0">Lorem ipsum dolor, sit amet
+                                        consectetur adipisicing elit. Debitis aspernatur perspiciatis perferendis natus
+                                        veniam, eligendi, quisquam earum distinctio sunt quam aperiam saepe quaerat
+                                        nesciunt est ullam vero quas ducimus ab.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-textiles" role="tabpanel"
+                                        aria-labelledby="pills-disabled-tab" tabindex="0">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-jewellery" role="tabpanel"
+                                        aria-labelledby="pills-disabled-tab" tabindex="0">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde fugit nostrum
+                                        tempora at omnis explicabo.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-gifts" role="tabpanel"
+                                        aria-labelledby="pills-disabled-tab" tabindex="0">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere accusamus optio
+                                        accusantium quae quisquam veritatis, libero dolore vitae ea officiis atque
+                                        eveniet dolor, earum praesentium eius dignissimos ad cum. Aspernatur.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-artisan-stories" role="tabpanel"
+                                        aria-labelledby="pills-disabled-tab" tabindex="0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis
+                                        excepturi fuga debitis porro. Facere maxime rerum ad dolorem vel asperiores iste
+                                        exercitationem quis harum aliquam enim dignissimos, voluptatem consectetur.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

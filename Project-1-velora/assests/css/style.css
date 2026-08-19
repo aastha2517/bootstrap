@@ -12,7 +12,7 @@
         --desc-color:#62473042;
         --bs-secondary-rgb: 58, 47, 42 !important;
         --bs-accordion-btn-bg:#0000;
-        
+        --border-colors:#62473042 ;
 
 }
 *{
@@ -21,8 +21,14 @@
     list-style: none;
     box-sizing: border-box;
 }
+.border-color{
+    border-color: var(--border-colors);
+}
 .margin-10{
     margin: 10% 0;
+}
+.margin-bottom-10{
+    margin-bottom: 10%;
 }
 .shipping{
     background-color:rgb(241, 226, 211);
@@ -137,4 +143,35 @@
     z-index: 3;
     outline: 0;
     box-shadow: 0 0 0 0 #3a2f2a00;
+}
+
+
+
+
+
+
+
+
+/* Shop */
+
+
+.nav-pills .nav-link.active {
+    color: #9D5C2C;
+}
+.nav-pills .show>.nav-link{
+    color: #3A2F2A;
+
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: transparent;
+}
+.nav-link{
+    color: #3A2F2A;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#9D5C2C;
+}
+.filter-menu:hover{
+    background-color:#9D5C2C ;
+    color: #F1E2D3;
 }
