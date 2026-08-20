@@ -1,7 +1,6 @@
 @media(max-width:575px){
     .hero-sec-xs{
         background-position:right;
-        /* padding-top: 164px; */
     }
 }
 @media(min-width:576px){
@@ -9,14 +8,3 @@
         background-position:right;
     }
 }
-
-/* @media(min-width:992px){
-    .hero-lg-profile{
-        right: 5%;
-    }
-} */
-/* @media(min-width:1400px){
-    .hero-lg-profile{
-        right: 10%;
-    }
-} */
