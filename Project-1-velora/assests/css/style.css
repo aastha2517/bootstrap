@@ -176,3 +176,13 @@
     background-color:#9D5C2C ;
     color: #F1E2D3;
 }
+
+
+input[type="checkbox"] {
+  accent-color: #9D5C2C;
+  margin: 0 10px 0 0;
+}
+label{
+    font-size: 15px;
+    
+}

@@ -302,14 +302,103 @@
                                         </div>
                                         <div class="col-12 d-flex justify-content-between my-5">
                                             <div class="col-3">
-                                                <div class="text-primary bg-info h-100">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum unde
-                                                    facere
-                                                    voluptate distinctio, mollitia voluptatum iure pariatur deleniti
-                                                    rerum
-                                                    voluptatem obcaecati soluta sint tempore fugiat consequatur possimus
-                                                    ea
-                                                    inventore deserunt!
+                                                <div class="text-primary h-100 border rounded-3 px-4">
+                                                    <div class="categories pt-3">
+                                                        <div class="filter-sec pb-4 border-bottom lh-lg">
+                                                            <p class="fw-semibold m-0">CATEGORIES</p>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="all" name="all" />
+                                                                <label for="all" class="fw-semibold">All Product</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="decor" name="decor"
+                                                                    checked />
+                                                                <label for="decor" class="fw-semibold">Home
+                                                                    Decor</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="ceramics" name="ceramics" />
+                                                                <label for="ceramics"
+                                                                    class="fw-semibold">Ceramics</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="textiles" name="textiles" />
+                                                                <label for="textiles"
+                                                                    class="fw-semibold">Textiles</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="jewellery"
+                                                                    name="jewellery" />
+                                                                <label for="jewellery"
+                                                                    class="fw-semibold">Jewellery</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="gifts" name="gifts" />
+                                                                <label for="gifts" class="fw-semibold">Gifts</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="artisan" name="artisan" />
+                                                                <label for="artisan" class="fw-semibold">Artisan
+                                                                    Stories</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="material pt-3">
+                                                        <div class="filter-sec pb-4 border-bottom lh-lg">
+                                                            <p class="fw-semibold m-0">MATERIAL</p>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="wood" name="wood" />
+                                                                <label for="wood" class="fw-semibold">Wood</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="ceramics2" name="ceramics2" />
+                                                                <label for="ceramics2"
+                                                                    class="fw-semibold">Ceramics</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="brass" name="brass"/>
+                                                                <label for="brass" class="fw-semibold">Brass
+                                                                    </label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="cotton" name="cotton" />
+                                                                <label for="cotton"
+                                                                    class="fw-semibold">Cotton</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="silver"
+                                                                    name="silver" />
+                                                                <label for="silver"
+                                                                    class="fw-semibold">Silver</label>
+                                                            </div>
+                                                            <p class="fw-semibold m-0"><span class="pe-2">+</span>More</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="occasion pt-3">
+                                                        <div class="filter-sec pb-4 border-bottom lh-lg">
+                                                            <p class="fw-semibold m-0">OCCASION</p>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="everyday" name="everyday" />
+                                                                <label for="everyday" class="fw-semibold">Everyday</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="festival" name="festival" />
+                                                                <label for="festival" class="fw-semibold">Festival
+                                                                    </label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="wedding" name="wedding" />
+                                                                <label for="wedding"
+                                                                    class="fw-semibold">Wedding</label>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <input type="checkbox" id="cor_gift" name="cor_gift" />
+                                                                <label for="cor_gift"
+                                                                    class="fw-semibold">Corporate Gifting</label>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-9 d-flex  justify-content-between flex-wrap row-gap-4">
@@ -325,10 +414,11 @@
                                                             <p>Vibrant Moroccan-inspired art for your space.</p>
                                                             <p class="card-text text-primary-emphasis">Home Decor
                                                             </p>
-                                                            <p class="text-primary fw-semibold">₹999<del class="text-primary-emphasis ps-3">₹1599</del></p>
+                                                            <p class="text-primary fw-semibold">₹999<del
+                                                                    class="text-primary-emphasis ps-3">₹1599</del></p>
                                                             <!-- <button class="badge text-bg-info">25% Off</button> -->
                                                             <a href="#" class="btn btn-primary">Add to cart</a>
-                                                         
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -468,7 +558,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-        </script>
+
+    </script>
+
 </body>
 
 </html>
